@@ -1,0 +1,33 @@
+# Fingerprint Access Control System
+
+This is a project that involves a fingerprint scanner integrated with an ESP8266 module. It controls access using fingerprints and sends a WhatsApp message when access is granted.
+
+## Components Used:
+- **ESP8266 WiFi module**
+- **Fingerprint Sensor**
+- **Relay Module**
+- **I2C LCD**
+- **Buzzer**
+- **Twilio API for WhatsApp notifications**
+
+## Circuit Diagram
+
+![Circuit Diagram](link_to_circuit_image)
+
+## Code Explanation
+
+The following code manages fingerprint scanning, Wi-Fi connection, relay control, and sending WhatsApp notifications using the Twilio API.
+
+### Libraries Used:
+```cpp
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+#include <SoftwareSerial.h>
+#include <Adafruit_Fingerprint.h>
+#include <ESP8266WiFi.h>
+#include <ESP8266HTTPClient.h>
+#include <WiFiClient.h>
+#include <UrlEncode.h>
+
+
+
