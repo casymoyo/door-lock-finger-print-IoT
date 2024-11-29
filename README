@@ -10,6 +10,9 @@ This is a project that involves a fingerprint scanner integrated with an ESP8266
 - **Buzzer**
 - **Twilio API for WhatsApp notifications**
 
+![Project Image](assets/image.jpg)
+
+
 ## Circuit Diagram
 
 ![Circuit Diagram](link_to_circuit_image)
