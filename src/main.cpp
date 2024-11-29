@@ -15,8 +15,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define BUZZZER_PIN D4
 
 // twilio
-const char* FROM_WHATSAPP = "whatsapp:+15865018478";  
-const char* TO_WHATSAPP = "whatsapp:+263789953575"; 
+const char* FROM_WHATSAPP = "whatsapp:";  
+const char* TO_WHATSAPP = "whatsapp:"; 
 
 String phoneNumber = "+263789953575";
 String apiKey = "1636956";
