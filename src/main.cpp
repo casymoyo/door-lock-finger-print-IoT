@@ -178,7 +178,7 @@ void connectToWiFi() {
 void sendMessage(String message){
 
   // Data to send with HTTP POST
-  String url = "http://api.callmebot.com/whatsapp.php?phone=263789953575&text=Access+Granted+!&apikey=8893619";
+  String url = "http://api.callmebot.com/whatsapp.php?phone=&text=Access+Granted+!&apikey=";
   WiFiClient client;    
   HTTPClient http;
   http.begin(client, url);
