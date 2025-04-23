@@ -12,11 +12,6 @@ This is a project that involves a fingerprint scanner integrated with an ESP8266
 
 ![Project Image](assets/image.jpg)
 
-
-## Circuit Diagram
-
-![Circuit Diagram](link_to_circuit_image)
-
 ## Code Explanation
 
 The following code manages fingerprint scanning, Wi-Fi connection, relay control, and sending WhatsApp notifications using the Twilio API.
